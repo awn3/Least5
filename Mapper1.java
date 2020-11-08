@@ -77,7 +77,7 @@ public class Mapper1 {
                 String keyToRemove = key.toString();
                 for (Map.Entry<String, Integer> entry : tmap2.entrySet())
                 {
-                   if(entry.getValue() < largestVal) {
+                   if(entry.getValue() > largestVal) {
                        largestVal = entry.getValue();
                        keyToRemove = entry.getKey();
                    }
